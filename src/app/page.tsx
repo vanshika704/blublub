@@ -1,11 +1,13 @@
 import { JSX } from "react";
 import { HeroParallax } from "@/app/hero-parallax";
 import Header from "@/components/header";
+import FooterComponent from "@/components/footer";
 export default function Home(): JSX.Element {
   return (
     <main>
       <Header/>
      <HeroParallax products={products} />;
+     <FooterComponent/>
     </main>
   );
 }
